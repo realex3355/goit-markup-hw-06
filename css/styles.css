@@ -531,7 +531,7 @@ color: var(--accent-color);
   padding-bottom: 12px;
   padding-left: 24px;
   padding-right: 24px; 
-  border: transparent;
+  border: 1px solid transparent;
   border-radius: 4px;
   transition: color var(--transit), 
   background-color var(--transit),
@@ -773,6 +773,7 @@ color: var(--heading-color);
     align-items: center;
     justify-content: center;
     fill: transparent;
+    transition: fill var(--transit)
    }
 
    .input-check:checked + .check-text span {
@@ -788,6 +789,35 @@ color: var(--heading-color);
     color: #4D5AE5;
     margin-left: 4px;
     }
+
+    .form-btn {
+      margin: 0 auto;
+      width: 168px;
+      height: 48px;
+      margin-top: 24px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: 0.04em;
+      color: #ffffff;
+      background-color: #4D5AE5;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      transition: background-color var(--transit);
+      }
+
+      .form-btn:hover {
+        background-color: var(--accent-color);
+      }
+
+    
+
+
+
+  
 
 
 
