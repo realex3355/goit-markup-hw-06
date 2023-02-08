@@ -655,6 +655,7 @@ color: var(--heading-color);
   align-items: center;
   justify-content: center;
   transition: background-color var(--transit);
+  cursor: pointer;
    }
 
    .backdrop.is-hidden .modal {
@@ -689,6 +690,7 @@ color: var(--heading-color);
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 14px;
+    margin-top: 24px;
    }
 
    .modal-field {
@@ -814,6 +816,7 @@ color: var(--heading-color);
       border: 1px solid transparent;
       border-radius: 4px;
       transition: background-color var(--transit);
+      cursor: pointer;
       }
 
       .form-btn:hover {
